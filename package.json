@@ -1,0 +1,26 @@
+{
+  "name": "atividade",
+  "version": "1.0.0",
+  "description": "API laboratorios",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitoriaPio/AtividadeExpress.git"
+  },
+  "author": "pio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitoriaPio/AtividadeExpress/issues"
+  },
+  "homepage": "https://github.com/VitoriaPio/AtividadeExpress#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "pdfkit": "^0.14.0"
+  }
+}
